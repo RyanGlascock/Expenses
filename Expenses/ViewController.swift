@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    struct Expense {
+        var title: [String] = ["Dinner", "Office Supplies", "Uber", "Coffee"]
+        var amount: [Double] = [32.50, 59.34, 16.23, 3.95]
+        var date: [Date] = []
+    }
 
 }
 
